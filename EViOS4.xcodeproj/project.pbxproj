@@ -33,7 +33,6 @@
 		F3B938192AB2E9F5004996CF /* ExpenseSectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */; };
 		F3B9381C2AB2F07D004996CF /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */; };
 		F3B9381D2AB2F07D004996CF /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */; };
-		F3B938202AB3046C004996CF /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9381F2AB3046C004996CF /* HideKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,7 +83,6 @@
 		F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSectionManager.swift; sourceTree = "<group>"; };
 		F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
 		F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
-		F3B9381F2AB3046C004996CF /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,17 +246,8 @@
 		F3B937FD2AB2E1CB004996CF /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				F3B9381E2AB3045A004996CF /* Keyboard */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		F3B9381E2AB3045A004996CF /* Keyboard */ = {
-			isa = PBXGroup;
-			children = (
-				F3B9381F2AB3046C004996CF /* HideKeyboard.swift */,
-			);
-			path = Keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,7 +400,6 @@
 				F3B938032AB2E334004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */,
 				F3B938132AB2E5B0004996CF /* SectionViewController.swift in Sources */,
 				F3B938192AB2E9F5004996CF /* ExpenseSectionManager.swift in Sources */,
-				F3B938202AB3046C004996CF /* HideKeyboard.swift in Sources */,
 				F3B937C52AB2E157004996CF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
