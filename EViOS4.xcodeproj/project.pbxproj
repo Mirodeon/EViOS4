@@ -29,10 +29,10 @@
 		F3B938192AB2E9F5004996CF /* ExpenseSectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */; };
 		F3B9381C2AB2F07D004996CF /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */; };
 		F3B9381D2AB2F07D004996CF /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */; };
-		F3B938252AB323D9004996CF /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938212AB323D9004996CF /* Expense+CoreDataClass.swift */; };
-		F3B938262AB323D9004996CF /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938222AB323D9004996CF /* Expense+CoreDataProperties.swift */; };
-		F3B938272AB323D9004996CF /* ExpenseSection+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938232AB323D9004996CF /* ExpenseSection+CoreDataClass.swift */; };
-		F3B938282AB323D9004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938242AB323D9004996CF /* ExpenseSection+CoreDataProperties.swift */; };
+		F3B9382D2AB33D12004996CF /* ExpenseSection+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938292AB33D12004996CF /* ExpenseSection+CoreDataClass.swift */; };
+		F3B9382E2AB33D12004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9382A2AB33D12004996CF /* ExpenseSection+CoreDataProperties.swift */; };
+		F3B9382F2AB33D12004996CF /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9382B2AB33D12004996CF /* Expense+CoreDataClass.swift */; };
+		F3B938302AB33D12004996CF /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9382C2AB33D12004996CF /* Expense+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,10 +79,10 @@
 		F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSectionManager.swift; sourceTree = "<group>"; };
 		F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
 		F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
-		F3B938212AB323D9004996CF /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		F3B938222AB323D9004996CF /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		F3B938232AB323D9004996CF /* ExpenseSection+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		F3B938242AB323D9004996CF /* ExpenseSection+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		F3B938292AB33D12004996CF /* ExpenseSection+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3B9382A2AB33D12004996CF /* ExpenseSection+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F3B9382B2AB33D12004996CF /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3B9382C2AB33D12004996CF /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,10 +181,10 @@
 		F3B937F62AB2E178004996CF /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F3B938212AB323D9004996CF /* Expense+CoreDataClass.swift */,
-				F3B938222AB323D9004996CF /* Expense+CoreDataProperties.swift */,
-				F3B938232AB323D9004996CF /* ExpenseSection+CoreDataClass.swift */,
-				F3B938242AB323D9004996CF /* ExpenseSection+CoreDataProperties.swift */,
+				F3B9382C2AB33D12004996CF /* Expense+CoreDataProperties.swift */,
+				F3B9382B2AB33D12004996CF /* Expense+CoreDataClass.swift */,
+				F3B9382A2AB33D12004996CF /* ExpenseSection+CoreDataProperties.swift */,
+				F3B938292AB33D12004996CF /* ExpenseSection+CoreDataClass.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -384,23 +384,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3B938252AB323D9004996CF /* Expense+CoreDataClass.swift in Sources */,
 				F3B9381C2AB2F07D004996CF /* ExpenseTableViewCell.swift in Sources */,
+				F3B9382F2AB33D12004996CF /* Expense+CoreDataClass.swift in Sources */,
 				F3B9380F2AB2E585004996CF /* ExpenseViewController.swift in Sources */,
 				F3B938112AB2E5A1004996CF /* AddExpenseViewController.swift in Sources */,
+				F3B938302AB33D12004996CF /* Expense+CoreDataProperties.swift in Sources */,
 				F3B938152AB2E831004996CF /* DataManager.swift in Sources */,
 				F3B937C72AB2E157004996CF /* ViewController.swift in Sources */,
-				F3B938272AB323D9004996CF /* ExpenseSection+CoreDataClass.swift in Sources */,
 				F3B938072AB2E453004996CF /* TabBarController.swift in Sources */,
-				F3B938282AB323D9004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */,
 				F3B938172AB2E870004996CF /* ExpenseManager.swift in Sources */,
 				F3B937CD2AB2E157004996CF /* EViOS4.xcdatamodeld in Sources */,
 				F3B937C32AB2E157004996CF /* AppDelegate.swift in Sources */,
+				F3B9382D2AB33D12004996CF /* ExpenseSection+CoreDataClass.swift in Sources */,
 				F3B938092AB2E488004996CF /* NavigationController.swift in Sources */,
-				F3B938262AB323D9004996CF /* Expense+CoreDataProperties.swift in Sources */,
 				F3B938132AB2E5B0004996CF /* SectionViewController.swift in Sources */,
 				F3B938192AB2E9F5004996CF /* ExpenseSectionManager.swift in Sources */,
 				F3B937C52AB2E157004996CF /* SceneDelegate.swift in Sources */,
+				F3B9382E2AB33D12004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
