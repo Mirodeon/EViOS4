@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3B937C32AB2E157004996CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937C22AB2E157004996CF /* AppDelegate.swift */; };
+		F3B937C52AB2E157004996CF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937C42AB2E157004996CF /* SceneDelegate.swift */; };
+		F3B937C72AB2E157004996CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937C62AB2E157004996CF /* ViewController.swift */; };
+		F3B937CA2AB2E157004996CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B937C82AB2E157004996CF /* Main.storyboard */; };
+		F3B937CD2AB2E157004996CF /* EViOS4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3B937CB2AB2E157004996CF /* EViOS4.xcdatamodeld */; };
+		F3B937CF2AB2E159004996CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B937CE2AB2E159004996CF /* Assets.xcassets */; };
+		F3B937D22AB2E159004996CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B937D02AB2E159004996CF /* LaunchScreen.storyboard */; };
+		F3B937DD2AB2E159004996CF /* EViOS4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937DC2AB2E159004996CF /* EViOS4Tests.swift */; };
+		F3B937E72AB2E159004996CF /* EViOS4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937E62AB2E159004996CF /* EViOS4UITests.swift */; };
+		F3B937E92AB2E159004996CF /* EViOS4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937E82AB2E159004996CF /* EViOS4UITestsLaunchTests.swift */; };
+		F3B938022AB2E334004996CF /* ExpenseSection+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937FE2AB2E334004996CF /* ExpenseSection+CoreDataClass.swift */; };
+		F3B938032AB2E334004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B937FF2AB2E334004996CF /* ExpenseSection+CoreDataProperties.swift */; };
+		F3B938042AB2E334004996CF /* Expense+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938002AB2E334004996CF /* Expense+CoreDataClass.swift */; };
+		F3B938052AB2E334004996CF /* Expense+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938012AB2E334004996CF /* Expense+CoreDataProperties.swift */; };
+		F3B938072AB2E453004996CF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938062AB2E453004996CF /* TabBarController.swift */; };
+		F3B938092AB2E488004996CF /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938082AB2E488004996CF /* NavigationController.swift */; };
+		F3B9380B2AB2E548004996CF /* Expense.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B9380A2AB2E548004996CF /* Expense.storyboard */; };
+		F3B9380D2AB2E559004996CF /* Section.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B9380C2AB2E559004996CF /* Section.storyboard */; };
+		F3B9380F2AB2E585004996CF /* ExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9380E2AB2E585004996CF /* ExpenseViewController.swift */; };
+		F3B938112AB2E5A1004996CF /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938102AB2E5A1004996CF /* AddExpenseViewController.swift */; };
+		F3B938132AB2E5B0004996CF /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938122AB2E5B0004996CF /* SectionViewController.swift */; };
+		F3B938152AB2E831004996CF /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938142AB2E831004996CF /* DataManager.swift */; };
+		F3B938172AB2E870004996CF /* ExpenseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938162AB2E870004996CF /* ExpenseManager.swift */; };
+		F3B938192AB2E9F5004996CF /* ExpenseSectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */; };
+		F3B9381C2AB2F07D004996CF /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */; };
+		F3B9381D2AB2F07D004996CF /* ExpenseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */; };
+		F3B938202AB3046C004996CF /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B9381F2AB3046C004996CF /* HideKeyboard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3B937D92AB2E159004996CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B937B72AB2E157004996CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B937BE2AB2E157004996CF;
+			remoteInfo = EViOS4;
+		};
+		F3B937E32AB2E159004996CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3B937B72AB2E157004996CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3B937BE2AB2E157004996CF;
+			remoteInfo = EViOS4;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3B937BF2AB2E157004996CF /* EViOS4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EViOS4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B937C22AB2E157004996CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B937C42AB2E157004996CF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F3B937C62AB2E157004996CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3B937C92AB2E157004996CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B937CC2AB2E157004996CF /* EViOS4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EViOS4.xcdatamodel; sourceTree = "<group>"; };
+		F3B937CE2AB2E159004996CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B937D12AB2E159004996CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B937D32AB2E159004996CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B937D82AB2E159004996CF /* EViOS4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EViOS4Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B937DC2AB2E159004996CF /* EViOS4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4Tests.swift; sourceTree = "<group>"; };
+		F3B937E22AB2E159004996CF /* EViOS4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EViOS4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B937E62AB2E159004996CF /* EViOS4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4UITests.swift; sourceTree = "<group>"; };
+		F3B937E82AB2E159004996CF /* EViOS4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3B937FE2AB2E334004996CF /* ExpenseSection+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3B937FF2AB2E334004996CF /* ExpenseSection+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ExpenseSection+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F3B938002AB2E334004996CF /* Expense+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataClass.swift"; sourceTree = "<group>"; };
+		F3B938012AB2E334004996CF /* Expense+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Expense+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F3B938062AB2E453004996CF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		F3B938082AB2E488004996CF /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		F3B9380A2AB2E548004996CF /* Expense.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Expense.storyboard; sourceTree = "<group>"; };
+		F3B9380C2AB2E559004996CF /* Section.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Section.storyboard; sourceTree = "<group>"; };
+		F3B9380E2AB2E585004996CF /* ExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseViewController.swift; sourceTree = "<group>"; };
+		F3B938102AB2E5A1004996CF /* AddExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		F3B938122AB2E5B0004996CF /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		F3B938142AB2E831004996CF /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		F3B938162AB2E870004996CF /* ExpenseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseManager.swift; sourceTree = "<group>"; };
+		F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseSectionManager.swift; sourceTree = "<group>"; };
+		F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpenseTableViewCell.xib; sourceTree = "<group>"; };
+		F3B9381F2AB3046C004996CF /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B937BC2AB2E157004996CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B937D52AB2E159004996CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B937DF2AB2E159004996CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3B937B62AB2E157004996CF = {
+			isa = PBXGroup;
+			children = (
+				F3B937C12AB2E157004996CF /* EViOS4 */,
+				F3B937DB2AB2E159004996CF /* EViOS4Tests */,
+				F3B937E52AB2E159004996CF /* EViOS4UITests */,
+				F3B937C02AB2E157004996CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B937C02AB2E157004996CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937BF2AB2E157004996CF /* EViOS4.app */,
+				F3B937D82AB2E159004996CF /* EViOS4Tests.xctest */,
+				F3B937E22AB2E159004996CF /* EViOS4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B937C12AB2E157004996CF /* EViOS4 */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937FD2AB2E1CB004996CF /* Utils */,
+				F3B937FC2AB2E1A9004996CF /* Storyboards */,
+				F3B937F92AB2E193004996CF /* Cells */,
+				F3B937F82AB2E189004996CF /* ViewControllers */,
+				F3B937F72AB2E17F004996CF /* BarControllers */,
+				F3B937F62AB2E178004996CF /* Models */,
+				F3B937F52AB2E16D004996CF /* Services */,
+				F3B937C22AB2E157004996CF /* AppDelegate.swift */,
+				F3B937C42AB2E157004996CF /* SceneDelegate.swift */,
+				F3B937C62AB2E157004996CF /* ViewController.swift */,
+				F3B937CE2AB2E159004996CF /* Assets.xcassets */,
+				F3B937D02AB2E159004996CF /* LaunchScreen.storyboard */,
+				F3B937D32AB2E159004996CF /* Info.plist */,
+				F3B937CB2AB2E157004996CF /* EViOS4.xcdatamodeld */,
+			);
+			path = EViOS4;
+			sourceTree = "<group>";
+		};
+		F3B937DB2AB2E159004996CF /* EViOS4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937DC2AB2E159004996CF /* EViOS4Tests.swift */,
+			);
+			path = EViOS4Tests;
+			sourceTree = "<group>";
+		};
+		F3B937E52AB2E159004996CF /* EViOS4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937E62AB2E159004996CF /* EViOS4UITests.swift */,
+				F3B937E82AB2E159004996CF /* EViOS4UITestsLaunchTests.swift */,
+			);
+			path = EViOS4UITests;
+			sourceTree = "<group>";
+		};
+		F3B937F52AB2E16D004996CF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F3B938142AB2E831004996CF /* DataManager.swift */,
+				F3B938162AB2E870004996CF /* ExpenseManager.swift */,
+				F3B938182AB2E9F5004996CF /* ExpenseSectionManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F3B937F62AB2E178004996CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937FE2AB2E334004996CF /* ExpenseSection+CoreDataClass.swift */,
+				F3B937FF2AB2E334004996CF /* ExpenseSection+CoreDataProperties.swift */,
+				F3B938002AB2E334004996CF /* Expense+CoreDataClass.swift */,
+				F3B938012AB2E334004996CF /* Expense+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3B937F72AB2E17F004996CF /* BarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3B938062AB2E453004996CF /* TabBarController.swift */,
+				F3B938082AB2E488004996CF /* NavigationController.swift */,
+			);
+			path = BarControllers;
+			sourceTree = "<group>";
+		};
+		F3B937F82AB2E189004996CF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9380E2AB2E585004996CF /* ExpenseViewController.swift */,
+				F3B938102AB2E5A1004996CF /* AddExpenseViewController.swift */,
+				F3B938122AB2E5B0004996CF /* SectionViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F3B937F92AB2E193004996CF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937FB2AB2E1A2004996CF /* Xibs */,
+				F3B937FA2AB2E19B004996CF /* Views */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F3B937FA2AB2E19B004996CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9381A2AB2F07D004996CF /* ExpenseTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3B937FB2AB2E1A2004996CF /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9381B2AB2F07D004996CF /* ExpenseTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		F3B937FC2AB2E1A9004996CF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F3B937C82AB2E157004996CF /* Main.storyboard */,
+				F3B9380A2AB2E548004996CF /* Expense.storyboard */,
+				F3B9380C2AB2E559004996CF /* Section.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F3B937FD2AB2E1CB004996CF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9381E2AB3045A004996CF /* Keyboard */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		F3B9381E2AB3045A004996CF /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F3B9381F2AB3046C004996CF /* HideKeyboard.swift */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B937BE2AB2E157004996CF /* EViOS4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B937EC2AB2E159004996CF /* Build configuration list for PBXNativeTarget "EViOS4" */;
+			buildPhases = (
+				F3B937BB2AB2E157004996CF /* Sources */,
+				F3B937BC2AB2E157004996CF /* Frameworks */,
+				F3B937BD2AB2E157004996CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EViOS4;
+			productName = EViOS4;
+			productReference = F3B937BF2AB2E157004996CF /* EViOS4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3B937D72AB2E159004996CF /* EViOS4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B937EF2AB2E159004996CF /* Build configuration list for PBXNativeTarget "EViOS4Tests" */;
+			buildPhases = (
+				F3B937D42AB2E159004996CF /* Sources */,
+				F3B937D52AB2E159004996CF /* Frameworks */,
+				F3B937D62AB2E159004996CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B937DA2AB2E159004996CF /* PBXTargetDependency */,
+			);
+			name = EViOS4Tests;
+			productName = EViOS4Tests;
+			productReference = F3B937D82AB2E159004996CF /* EViOS4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3B937E12AB2E159004996CF /* EViOS4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B937F22AB2E159004996CF /* Build configuration list for PBXNativeTarget "EViOS4UITests" */;
+			buildPhases = (
+				F3B937DE2AB2E159004996CF /* Sources */,
+				F3B937DF2AB2E159004996CF /* Frameworks */,
+				F3B937E02AB2E159004996CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3B937E42AB2E159004996CF /* PBXTargetDependency */,
+			);
+			name = EViOS4UITests;
+			productName = EViOS4UITests;
+			productReference = F3B937E22AB2E159004996CF /* EViOS4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B937B72AB2E157004996CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F3B937BE2AB2E157004996CF = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F3B937D72AB2E159004996CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F3B937BE2AB2E157004996CF;
+					};
+					F3B937E12AB2E159004996CF = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F3B937BE2AB2E157004996CF;
+					};
+				};
+			};
+			buildConfigurationList = F3B937BA2AB2E157004996CF /* Build configuration list for PBXProject "EViOS4" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B937B62AB2E157004996CF;
+			productRefGroup = F3B937C02AB2E157004996CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B937BE2AB2E157004996CF /* EViOS4 */,
+				F3B937D72AB2E159004996CF /* EViOS4Tests */,
+				F3B937E12AB2E159004996CF /* EViOS4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B937BD2AB2E157004996CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B937D22AB2E159004996CF /* LaunchScreen.storyboard in Resources */,
+				F3B9380B2AB2E548004996CF /* Expense.storyboard in Resources */,
+				F3B9381D2AB2F07D004996CF /* ExpenseTableViewCell.xib in Resources */,
+				F3B937CF2AB2E159004996CF /* Assets.xcassets in Resources */,
+				F3B937CA2AB2E157004996CF /* Main.storyboard in Resources */,
+				F3B9380D2AB2E559004996CF /* Section.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B937D62AB2E159004996CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B937E02AB2E159004996CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B937BB2AB2E157004996CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B9381C2AB2F07D004996CF /* ExpenseTableViewCell.swift in Sources */,
+				F3B9380F2AB2E585004996CF /* ExpenseViewController.swift in Sources */,
+				F3B938112AB2E5A1004996CF /* AddExpenseViewController.swift in Sources */,
+				F3B938042AB2E334004996CF /* Expense+CoreDataClass.swift in Sources */,
+				F3B938152AB2E831004996CF /* DataManager.swift in Sources */,
+				F3B938022AB2E334004996CF /* ExpenseSection+CoreDataClass.swift in Sources */,
+				F3B937C72AB2E157004996CF /* ViewController.swift in Sources */,
+				F3B938072AB2E453004996CF /* TabBarController.swift in Sources */,
+				F3B938172AB2E870004996CF /* ExpenseManager.swift in Sources */,
+				F3B937CD2AB2E157004996CF /* EViOS4.xcdatamodeld in Sources */,
+				F3B938052AB2E334004996CF /* Expense+CoreDataProperties.swift in Sources */,
+				F3B937C32AB2E157004996CF /* AppDelegate.swift in Sources */,
+				F3B938092AB2E488004996CF /* NavigationController.swift in Sources */,
+				F3B938032AB2E334004996CF /* ExpenseSection+CoreDataProperties.swift in Sources */,
+				F3B938132AB2E5B0004996CF /* SectionViewController.swift in Sources */,
+				F3B938192AB2E9F5004996CF /* ExpenseSectionManager.swift in Sources */,
+				F3B938202AB3046C004996CF /* HideKeyboard.swift in Sources */,
+				F3B937C52AB2E157004996CF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B937D42AB2E159004996CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B937DD2AB2E159004996CF /* EViOS4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3B937DE2AB2E159004996CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B937E92AB2E159004996CF /* EViOS4UITestsLaunchTests.swift in Sources */,
+				F3B937E72AB2E159004996CF /* EViOS4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3B937DA2AB2E159004996CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B937BE2AB2E157004996CF /* EViOS4 */;
+			targetProxy = F3B937D92AB2E159004996CF /* PBXContainerItemProxy */;
+		};
+		F3B937E42AB2E159004996CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3B937BE2AB2E157004996CF /* EViOS4 */;
+			targetProxy = F3B937E32AB2E159004996CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3B937C82AB2E157004996CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B937C92AB2E157004996CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B937D02AB2E159004996CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B937D12AB2E159004996CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B937EA2AB2E159004996CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B937EB2AB2E159004996CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B937ED2AB2E159004996CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EViOS4/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mirodeon.EViOS4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B937EE2AB2E159004996CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EViOS4/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mirodeon.EViOS4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3B937F02AB2E159004996CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mirodeon.EViOS4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EViOS4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EViOS4";
+			};
+			name = Debug;
+		};
+		F3B937F12AB2E159004996CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mirodeon.EViOS4Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EViOS4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EViOS4";
+			};
+			name = Release;
+		};
+		F3B937F32AB2E159004996CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mirodeon.EViOS4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EViOS4;
+			};
+			name = Debug;
+		};
+		F3B937F42AB2E159004996CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = be.mirodeon.EViOS4UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EViOS4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B937BA2AB2E157004996CF /* Build configuration list for PBXProject "EViOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B937EA2AB2E159004996CF /* Debug */,
+				F3B937EB2AB2E159004996CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B937EC2AB2E159004996CF /* Build configuration list for PBXNativeTarget "EViOS4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B937ED2AB2E159004996CF /* Debug */,
+				F3B937EE2AB2E159004996CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B937EF2AB2E159004996CF /* Build configuration list for PBXNativeTarget "EViOS4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B937F02AB2E159004996CF /* Debug */,
+				F3B937F12AB2E159004996CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B937F22AB2E159004996CF /* Build configuration list for PBXNativeTarget "EViOS4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B937F32AB2E159004996CF /* Debug */,
+				F3B937F42AB2E159004996CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3B937CB2AB2E157004996CF /* EViOS4.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3B937CC2AB2E157004996CF /* EViOS4.xcdatamodel */,
+			);
+			currentVersion = F3B937CC2AB2E157004996CF /* EViOS4.xcdatamodel */;
+			path = EViOS4.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3B937B72AB2E157004996CF /* Project object */;
+}
