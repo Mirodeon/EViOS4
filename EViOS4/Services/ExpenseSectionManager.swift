@@ -40,11 +40,6 @@ extension DataManager {
     }
 
     func deleteExpenseSection(_ expenseSection: ExpenseSection) {
-        if let expenses = expenseSection.expense {
-            for expense in expenses {
-                deleteExpense(expense)
-            }
-        }
         context.delete(expenseSection)
         saveContext()
     }

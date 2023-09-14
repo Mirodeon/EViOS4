@@ -16,10 +16,10 @@ extension Expense {
         return NSFetchRequest<Expense>(entityName: "Expense")
     }
 
+    @NSManaged public var date: Date
     @NSManaged public var name: String
     @NSManaged public var value: Float
-    @NSManaged public var date: Date
-    @NSManaged public var expenseSection: ExpenseSection
+    @NSManaged public var expenseSection: ExpenseSection?
 
 }
 

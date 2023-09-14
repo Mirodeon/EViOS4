@@ -64,16 +64,16 @@ extension SectionViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
 
-//    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-//        true
-//    }
-//    
-//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-//        if editingStyle == .delete {
-//            let expenseSection = resultsController.object(at: indexPath)
-//            DataManager.shared.deleteExpenseSection(expenseSection)
-//        }
-//    }
+    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
+        true
+    }
+
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
+        if editingStyle == .delete {
+            let expenseSection = resultsController.object(at: indexPath)
+            DataManager.shared.deleteExpenseSection(expenseSection)
+        }
+    }
 }
 
 extension SectionViewController: NSFetchedResultsControllerDelegate {
