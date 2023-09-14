@@ -16,8 +16,8 @@ extension DataManager {
         let request = Expense.fetchRequest()
         request.sortDescriptors = [
             NSSortDescriptor(key: "expenseSection.name", ascending: true),
-            NSSortDescriptor(key: "date", ascending: false),
             NSSortDescriptor(key: "name", ascending: true),
+            NSSortDescriptor(key: "date", ascending: false),
             NSSortDescriptor(key: "value", ascending: true)
         ]
         return request
