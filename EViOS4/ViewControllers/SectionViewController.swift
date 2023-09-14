@@ -33,6 +33,7 @@ class SectionViewController: UIViewController {
 
         alert.addTextField {field in
             field.placeholder = "Name...?"
+            field.autocapitalizationType = .sentences
         }
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         alert.addAction(UIAlertAction(title: "Add", style: .default, handler: { _ in
